@@ -324,6 +324,7 @@ const TransformationForm = ({action, data = null, userId, type, creditBalance, c
 
 
          <TransformedImage
+            type={type}
               image={image}
               title={form.getValues().title}
               isTransforming={isTransforming}
