@@ -176,7 +176,7 @@ export async function getUserImages({
       data: JSON.parse(JSON.stringify(images)),
       totalPages: Math.ceil(totalImages / limit),
     };
-  } catch (error) {
-    handleError(error);
+  } catch (err) {
+    handleError(err);
   }
 }
